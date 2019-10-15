@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "550987431456",
+    "firebase_url": "https://weapp-23fdd.firebaseio.com",
+    "project_id": "weapp-23fdd",
+    "storage_bucket": "weapp-23fdd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550987431456:android:0765fe44f9593e95fd0645",
+        "android_client_info": {
+          "package_name": "com.example.weapp_dv10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550987431456-6sisrceva1e039e3tat8i4l03omj91es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weapp_dv10",
+            "certificate_hash": "91de32ee17422cd5c9d9073dd82aa0051844dabf"
+          }
+        },
+        {
+          "client_id": "550987431456-uii83hk818usgan351dfgjen6m49hi07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuXaywJniCLWt7Kj8lfVQAqbUIJ8dFmyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550987431456-uii83hk818usgan351dfgjen6m49hi07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

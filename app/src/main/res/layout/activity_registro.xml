@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/back_registro"
     android:tag="Nombre de usuario"
-    tools:context=".registro">
+    tools:context=".Registro">
 
     <LinearLayout
         android:layout_width="322dp"
@@ -19,29 +19,40 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.58000004">
 
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:indeterminate="true"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
         <EditText
-            android:id="@+id/editText7"
+            android:id="@+id/txtName"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:ems="10"
+            android:hint="Nombre"
             android:fontFamily="@font/comfortaa_bold"
             android:inputType="textPersonName"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText8"
+            android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="78dp"
             android:ems="10"
+            android:hint="Contraseña"
             android:fontFamily="@font/comfortaa_bold"
             android:inputType="textPassword"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText9"
+            android:id="@+id/txtDir"
             android:layout_width="match_parent"
             android:layout_height="82dp"
             android:ems="10"
+            android:hint="Dirección"
             android:fontFamily="@font/comfortaa_bold"
             android:inputType="textPersonName"
             android:textAlignment="center"
@@ -49,28 +60,31 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/editText10"
+            android:id="@+id/txtFechaNac"
             android:layout_width="match_parent"
             android:layout_height="73dp"
             android:ems="10"
+            android:hint="Fecha de Nacimiento"
             android:fontFamily="@font/comfortaa_bold"
             android:inputType="date"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText11"
+            android:id="@+id/txtPhone"
             android:layout_width="match_parent"
             android:layout_height="66dp"
             android:ems="10"
+            android:hint="Teléfono"
             android:fontFamily="@font/comfortaa_bold"
             android:inputType="phone"
             android:textAlignment="center" />
 
         <EditText
-            android:id="@+id/editText12"
+            android:id="@+id/txtEmail"
             android:layout_width="match_parent"
             android:layout_height="63dp"
             android:ems="10"
+            android:hint="Correo"
             android:fontFamily="@font/comfortaa_bold"
             android:inputType="textEmailAddress"
             android:textAlignment="center" />
@@ -81,11 +95,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginBottom="108dp"
-            android:text="Acepto los terminos de uso y licencia." />
+            android:text="Acepto los términos de uso y licencia." />
     </LinearLayout>
 
     <Button
-        android:id="@+id/button3"
+        android:onClick="register"
         android:layout_width="319dp"
         android:layout_height="60dp"
         android:layout_marginBottom="48dp"
